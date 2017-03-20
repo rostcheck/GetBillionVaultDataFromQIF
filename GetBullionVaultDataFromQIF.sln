@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetBullionVaultDataFromQIF", "GetBullionVaultDataFromQIF\GetBullionVaultDataFromQIF.csproj", "{DD5BBA49-F32A-4A60-8800-01445544F701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QifApi", "qif\QifApi\QifApi.csproj", "{80519FD2-924F-4A95-B892-F8A97938FC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD5BBA49-F32A-4A60-8800-01445544F701}.Debug|x86.ActiveCfg = Debug|x86
+		{DD5BBA49-F32A-4A60-8800-01445544F701}.Debug|x86.Build.0 = Debug|x86
+		{DD5BBA49-F32A-4A60-8800-01445544F701}.Release|x86.ActiveCfg = Release|x86
+		{DD5BBA49-F32A-4A60-8800-01445544F701}.Release|x86.Build.0 = Release|x86
+		{80519FD2-924F-4A95-B892-F8A97938FC97}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80519FD2-924F-4A95-B892-F8A97938FC97}.Debug|x86.Build.0 = Debug|Any CPU
+		{80519FD2-924F-4A95-B892-F8A97938FC97}.Release|x86.ActiveCfg = Release|Any CPU
+		{80519FD2-924F-4A95-B892-F8A97938FC97}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GetBullionVaultDataFromQIF\GetBullionVaultDataFromQIF.csproj
+	EndGlobalSection
+EndGlobal
