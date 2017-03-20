@@ -33,6 +33,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="QifApi">
+      <HintPath>..\packages\QifApi.1.0.6014.6272\lib\net45\QifApi.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -40,10 +43,7 @@
     <Compile Include="MetalTypeEnum.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\qif\QifApi\QifApi.csproj">
-      <Project>{80519FD2-924F-4A95-B892-F8A97938FC97}</Project>
-      <Name>QifApi</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

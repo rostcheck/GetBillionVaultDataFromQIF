@@ -7,6 +7,8 @@ using QifApi.Transactions;
 
 namespace GetBullionVaultDataFromQIF
 {
+	// Very quick and dirty utility to read storage fees from a QIF accounting file, for later consumption
+	// by TrackMetal - just a hasty solution to personal problem.
 	class MainClass
 	{
 		public static void Main(string[] args)
